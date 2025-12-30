@@ -5,6 +5,9 @@
     "type": "module",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "build": "rollup -c",
         "format": "prettier --write 'src/**/*.ts'",
@@ -13,8 +16,23 @@
         "typecheck": "tsc --noEmit",
         "prepare": "husky"
     },
-    "author": "",
+    "author": "Asim khan <asimabas95@gmail.com>",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Asim-khan972/Youtube-video-transcripts.git"
+    },
+    "keywords": [
+        "youtube",
+        "transcript",
+        "captions",
+        "subtitles",
+        "video",
+        "scraper"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
     "devDependencies": {
         "@eslint/js": "^9.39.2",
         "@types/jest": "^30.0.0",
